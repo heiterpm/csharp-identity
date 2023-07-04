@@ -4,7 +4,7 @@ namespace UsuariosApi.Models
 {
     public class Usuario : IdentityUser
     {
-        public DateTime dataNascimento { get; set; }
+        public DateTime DataNascimento { get; set; }
         public Usuario() : base() {}
     }
 }
